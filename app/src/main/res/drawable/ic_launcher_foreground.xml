@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- CineNova Emblem: Golden Film Frame + Play Triangle + Star Accent within 66dp (x: 21 to 87, y: 21 to 87) -->
+    <!-- Outer Rounded Shield/Frame -->
+    <path
+        android:pathData="M34,26 L74,26 C79.5,26 84,30.5 84,36 L84,72 C84,77.5 79.5,82 74,82 L34,82 C28.5,82 24,77.5 24,72 L24,36 C24,30.5 28.5,26 34,26 Z"
+        android:strokeWidth="3.5"
+        android:fillColor="#15171C">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="24"
+                android:startY="26"
+                android:endX="84"
+                android:endY="82"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FDF0C8" />
+                <item android:offset="0.5" android:color="#E8C568" />
+                <item android:offset="1.0" android:color="#B88A2E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Film Perforation Dots on left & right borders -->
+    <path
+        android:fillColor="#E8C568"
+        android:pathData="M27,34h3v4h-3z M27,44h3v4h-3z M27,54h3v4h-3z M27,64h3v4h-3z M27,72h3v4h-3z M78,34h3v4h-3z M78,44h3v4h-3z M78,54h3v4h-3z M78,64h3v4h-3z M78,72h3v4h-3z" />
+    <!-- Dynamic Play Triangle in Center -->
+    <path
+        android:pathData="M48,40 L68,54 L48,68 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="48"
+                android:startY="40"
+                android:endX="68"
+                android:endY="68"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFF3CE" />
+                <item android:offset="0.5" android:color="#E8C568" />
+                <item android:offset="1.0" android:color="#D49B2A" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Nova Star Sparkle Accent at Top Right Corner -->
+    <path
+        android:pathData="M75,23 Q75,30 82,30 Q75,30 75,37 Q75,30 68,30 Q75,30 75,23 Z"
+        android:fillColor="#FFE899" />
+</vector>
